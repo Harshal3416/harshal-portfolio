@@ -1,0 +1,82 @@
+.home-page {
+	.text-zone {
+		position: absolute;
+		top: 50%;
+		left: 15%;
+		transform: translateY(-50%);
+		width: 40%;
+		max-height: 90%;
+	}
+
+	h1 {
+		color: #fff;
+		font-size: 53px;
+		font-family: "Coolvetica";
+		font-weight: 400;
+
+		&::before {
+			content: "<h1>";
+			font-family: "La Belle Aurore";
+			color: #ffd700;
+			font-size: 18px;
+			position: absolute;
+			margin-top: -40px;
+			left: 15px;
+			opacity: 0.5;
+		}
+
+		&::after {
+			content: "<h1/>";
+			font-family: "La Belle Aurore";
+			color: #ffd700;
+			font-size: 18px;
+			position: absolute;
+			margin-top: 38px;
+			margin-left: 23px;
+			opacity: 0.5;
+			animation: fadeIn 1s 1.7s backwards;
+		}
+	}
+
+	h2 {
+		color: #8d8d8d;
+		margin-top: 22px;
+		font-weight: 500px;
+		font-size: 16px;
+		font-family: sans-serif;
+		letter-spacing: 6px;
+		animation: fadeIn 1s 1.8s backwards;
+	}
+
+	.flat-button {
+		color: #ffd700;
+		font-size: 13px;
+		font-weight: 400;
+		letter-spacing: 4px;
+		font-family: sans-serif;
+		text-decoration: none;
+		padding: 10px 18px;
+		border: 1px solid #ffd700;
+		margin-top: 25px;
+		float: left;
+		animation: fadeIn 1s 1.8s backwards;
+		white-space: nowrap;
+
+		&:hover {
+			background: #ffd700;
+			color: #333;
+		}
+	}
+
+	.profile-image {
+		position: absolute;
+		right: 13%;
+		top: 19%;
+
+		img {
+			height: 400px;
+			border-radius: 50%;
+			box-shadow: 2px 4px #ffd700;
+		}
+	}
+}
