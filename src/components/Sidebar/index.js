@@ -1,13 +1,13 @@
 import "./index.scss";
-import LogoS from '../../assets/images/logo-s.png';
 import hlogo from '../../assets/images/hlogoblack.jpg';
-
+import CV from '../../assets/pdf/HARSHAL-Front-end-4.5Years.pdf'
 import { Link, NavLink } from "react-router-dom";
-import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faSkype } from "@fortawesome/free-brands-svg-icons";
 
 const Sidebar = () => {
+
     return (
         <>
             <div className="nav-bar">
@@ -24,6 +24,9 @@ const Sidebar = () => {
                     <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"></FontAwesomeIcon>
                     </NavLink>
+                    <a href={CV} download className="download-cv">
+                        <FontAwesomeIcon icon={faDownload} color="#ffd700"></FontAwesomeIcon>
+                    </a>
                 </nav>
 
                 <ul>

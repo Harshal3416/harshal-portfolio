@@ -89,6 +89,12 @@
 			}
 		}
 
+		a.download-cv {
+			&::after {
+				content: "DOWNLOAD";
+			}
+		}
+
 		a.active {
 			svg {
 				color: #ffd700;
