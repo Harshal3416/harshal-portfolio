@@ -7,20 +7,14 @@
 	z-index: 3;
 	min-height: 500px;
 
-	.logo {
-		display: block;
-		padding: 8px 0;
-
-		img {
-			display: block;
-			margin: 8px auto;
-			width: 24px;
-			height: auto;
-			border-radius: 50%;
-			&.hlogo {
-				width: 50px;
-			}
-		}
+	.mylogo {
+		font-size: 45px;
+		font-weight: 500;
+		color: #ffd700;
+		font-family: "La Belle Aurore", cursive;
+		display: flex;
+		justify-content: center;
+		margin-top: 25px;
 	}
 
 	nav {
