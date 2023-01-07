@@ -46,12 +46,14 @@
 		}
 
 		p {
-			font-size: 13px;
+			font-size: 16px;
 			color: #fff;
 			font-family: sans-serif;
 			font-weight: 300;
 			max-width: fit-content;
-			animation: pulse 1s;
+			animation: pulse 0.5s;
+			position: relative;
+			left: 10%;
 		}
 	}
 }

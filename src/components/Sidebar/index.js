@@ -4,7 +4,7 @@ import CV from '../../assets/pdf/HARSHAL-Front-end-4.5Years.pdf'
 import { Link, NavLink } from "react-router-dom";
 import { faDownload, faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faSkype } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faSkype, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const Sidebar = () => {
 
@@ -31,18 +31,18 @@ const Sidebar = () => {
 
                 <ul>
                     <li>
-                        <a target="_blank" rel="norederrer" href="">
+                        <a target="_blank" rel="norederrer" href="https://linkedin.com/in/harshal-belamkar">
                             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"></FontAwesomeIcon>
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" rel="norederrer" href="">
+                        <a target="_blank" rel="norederrer" href="https://github.com/Harshal3416">
                             <FontAwesomeIcon icon={faGithub} color="#4d4d4e"></FontAwesomeIcon>
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" rel="norederrer" href="">
-                            <FontAwesomeIcon icon={faSkype} color="#4d4d4e"></FontAwesomeIcon>
+                        <a target="_blank" rel="norederrer" href="https://wa.me/8970903416">
+                            <FontAwesomeIcon icon={faWhatsapp} color="#4d4d4e"></FontAwesomeIcon>
                         </a>
                     </li>
                 </ul>

@@ -9,8 +9,10 @@ const About = () => {
                 <div className="text-zone">
 
                     <h1>About Me</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ea consectetur ipsa enim voluptatem optio explicabo facilis adipisci ex reiciendis repellendus saepe alias itaque temporibus porro quod, earum, ad debitis!</p>
-
+                    <p>
+                        Senior Software Engineer working on Front-End technologies from past 4.5+ years. <br />
+                        Key Skills: Javascript, React JS, Angular 2+, Typescript, HTML5, CSS3, GIT, etc.
+                    </p>
                 </div>
             </div>
 

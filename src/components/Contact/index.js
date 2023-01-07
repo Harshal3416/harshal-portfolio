@@ -1,6 +1,8 @@
 import "./index.scss";
 import emailjs from '@emailjs/browser'
 import { useRef } from "react";
+import { faCopy, faMessage, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
     const form = useRef()
@@ -25,7 +27,17 @@ const Contact = () => {
                 <div className="text-zone">
 
                     <h1>Contact Me</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ea consectetur ipsa enim voluptatem optio explicabo facilis adipisci ex reiciendis repellendus saepe alias itaque temporibus porro quod, earum, ad debitis!</p>
+                    <p>
+                        <br />
+                        <FontAwesomeIcon icon={faMessage} color="#4d4d4e"></FontAwesomeIcon>
+                        <span className="gmail" onClick={() => { navigator.clipboard.writeText('harshalbelamkar3416@gmail.com') }}> &nbsp; harshalbelamkar3416@gmail.com &nbsp;
+                            <FontAwesomeIcon icon={faCopy} color="#4d4d4e"></FontAwesomeIcon>
+                        </span> <br /> <br />
+                        <FontAwesomeIcon icon={faPhone} color="#4d4d4e"></FontAwesomeIcon>
+                        <span className="phone" onClick={() => { navigator.clipboard.writeText('+91 8970903416') }}>&nbsp; +91 8970903416 &nbsp;
+                            <FontAwesomeIcon icon={faCopy} color="#4d4d4e"></FontAwesomeIcon>
+                        </span>
+                    </p>
 
                 </div>
 
