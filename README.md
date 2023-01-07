@@ -82,3 +82,4 @@ npm i react-leaflet
 npm i react-loaders
 npm i react-router-dom
 npm i sass
+npm i gh-pages --save-dev
