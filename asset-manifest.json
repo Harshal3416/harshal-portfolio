@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/harshal-portfolio/static/css/main.b0129757.css",
-    "main.js": "/harshal-portfolio/static/js/main.5d488ebf.js",
+    "main.js": "/harshal-portfolio/static/js/main.b0174dca.js",
     "static/js/787.a2cb61a6.chunk.js": "/harshal-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/profileImage.jpg": "/harshal-portfolio/static/media/profileImage.7171209c44a0d574035c.jpg",
     "static/media/HARSHAL-Front-end-4.5Years.pdf": "/harshal-portfolio/static/media/HARSHAL-Front-end-4.5Years.feb9925a5dde8d308cc3.pdf",
@@ -11,11 +11,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/harshal-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/harshal-portfolio/index.html",
     "main.b0129757.css.map": "/harshal-portfolio/static/css/main.b0129757.css.map",
-    "main.5d488ebf.js.map": "/harshal-portfolio/static/js/main.5d488ebf.js.map",
+    "main.b0174dca.js.map": "/harshal-portfolio/static/js/main.b0174dca.js.map",
     "787.a2cb61a6.chunk.js.map": "/harshal-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0129757.css",
-    "static/js/main.5d488ebf.js"
+    "static/js/main.b0174dca.js"
   ]
 }
